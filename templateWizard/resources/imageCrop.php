@@ -136,7 +136,7 @@
 							<input type=\"hidden\" id=\"w\" name=\"w\" />
 							<input type=\"hidden\" id=\"h\" name=\"h\" />
 							<input type=\"submit\" class=\"btn\" value=\"Add Image\" />
-							<a href=\"index.php\" class=\"btn\">Go Back</a>
+							<a href=\"..\index.php\" class=\"btn\">Go Back</a>
 						</form>
 					</div>";
 			    }
