@@ -20,9 +20,11 @@
 // IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
 // THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+// Last Modified on 2/17/2014 by Brent Saltzman, Division of Information Technology, Creighton University
+
 
 	// Root url for all api calls and links back to Canvas
-	$canvasURL = 'https://usu.instructure.com';
+	$canvasURL = 'https://blueline.instructure.com';
 	// This is the authorization token from Canvas
 	$token = "";
 	// To generate this token, choose/create an admin user that you would like to generate the token from
