@@ -33,7 +33,7 @@
 <!DOCTYPE html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-	<title>USU Template Wizard</title>
+	<title>BlueLine Template Wizard</title>
 	<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="resources/bootstrap/css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
