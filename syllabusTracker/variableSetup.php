@@ -44,10 +44,10 @@
 		$semester = "";
 
 		// You will need to change the following to match your institutions sis_term_id's
-		// USU uses YYYY## for each term where ## is a two digit term code
-		$SpringCode = '20';
-		$SummerCode = '30';
-		$FallCode = '40';
+		// CU uses YYYY## for each term where ## is a two digit term code
+		$SpringCode = '10';
+		$SummerCode = '40';
+		$FallCode = '70';
 
 		// Spring Semester
 		if (($month >= "01" && $month <= "03") || $month == "12"){
