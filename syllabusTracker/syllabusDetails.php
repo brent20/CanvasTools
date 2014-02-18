@@ -21,6 +21,8 @@
 // IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
 // THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+// Last Modified on 2/17/2014 by Brent Saltzman, Division of Information Technology, Creighton University
+
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL ^ E_NOTICE);
 

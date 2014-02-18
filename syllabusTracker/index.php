@@ -21,6 +21,8 @@
 // IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
 // THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+// Last Modified on 2/17/2014 by Brent Saltzman, Division of Information Technology, Creighton University
+
 
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL ^ E_NOTICE);
@@ -32,7 +34,7 @@
 	<meta name="google" content="notranslate">
 	<meta http-equiv="Content-Language" content="en" />
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-	<title>USU Syllabus Tracker</title>
+	<title>BlueLine Syllabus Tracker</title>
 	<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="resources/bootstrap/css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
@@ -54,14 +56,14 @@
 				<i class="icon-question-sign"></i> No Syllabus in Canvas<br>
 				<i class="icon-share-alt"></i> Link to Canvas Course<br>
 				<i class="icon-user"></i> Course Instructor or <i class="icon-group" style="margin-left:10px;"></i> Instructors<br> 
-				<i class="icon-magic"></i> Used USU Custom Syllabus Tool
+				<i class="icon-magic"></i> Used BlueLine Custom Syllabus Tool
 			</div>
-			<h1><i class="icon-compass"></i> Canvas Course Syllabus Tracker</h1>
+			<h1><i class="icon-compass"></i> BlueLine Course Syllabus Tracker</h1>
 		</div>
 	</div>
 	<div class="container-fluid">
 		<div class="row-fluid">
-			<p class="lead">This tool will display all courses within Canvas that have student enrollments.</p>
+			<p class="lead">This tool will display all courses within BlueLine that have student enrollments.</p>
 			<div class="well">
 				<select name="college" id="college">
 					<option value="">Choose a College</option>

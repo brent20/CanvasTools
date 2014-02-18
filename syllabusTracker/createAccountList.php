@@ -1,4 +1,5 @@
 <?php
+// Last Modified on 2/17/2014 by Brent Saltzman, Division of Information Technology, Creighton University	
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL ^ E_NOTICE);
 
@@ -211,8 +212,8 @@
 				?>
 			<a href="#" class="generateData btn pull-right">Save List</a>
 			<a href="index.php" class="btn btn-primary trackerLink hide pull-right">Go to Syllabus Tracker</a>
-			<a href="http://cidi.usu.edu/" target="_blank" title="CIDI Website">
-				<img src="https://elearn.usu.edu/canvas_branding/cidi/images/cidi-logo-small-silver.png" width="250">
+			<a href="https://doit.creighton.edu/" target="_blank" title="DoIT Website">
+				<img src="/syllabusTracker/resources/css/cu_logo.png" width="250">
 			</a>
 		</div>
 	</div>
