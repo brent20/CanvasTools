@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-	<title>USU Template Wizard - Wiki Pages</title>
+	<title>BlueLine Template Wizard - Wiki Pages</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -72,7 +72,7 @@
 				<h3>How to Use</h3>
 				<ol style="text-align:left">
 					<li>Click the link for the template you would like to create/edit. <em>(links will open in a new window/tab)</em></li>
-					<li>Use the &ldquo;USU Tools&rdquo; to customize the template page.</li>
+					<li>Use the &ldquo;BlueLine Tools&rdquo; to customize the template page.</li>
 					<li>Return to this wizard and choose the &ldquo;Modules&rdquo; link. This will allow you to setup a pattern and create the necessary modules.</li>
 				</ol>
 			</div>
