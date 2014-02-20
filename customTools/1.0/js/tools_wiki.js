@@ -43,7 +43,7 @@
 	    $(".edit_link").click(function () {
 	    // Add button to trigger USU tools
 		   if(!$("#custom-tools-accordion").length>0){
-				$("#wiki_edit_view_secondary").before('<a href="#" class="btn btn-primary addUSUTools"><i class="fa fa-rocket" style="font-size: 18px;"></i> Launch USU Tools</a>');
+				$("#wiki_edit_view_secondary").before('<a href="#" class="btn btn-primary addUSUTools"><i class="fa fa-rocket" style="font-size: 18px;"></i> Launch BlueLine Toolswiki</a>');
 				$(".addUSUTools").click(function (e){
 					e.preventDefault();
 					editorExistenceCheck();
@@ -52,7 +52,7 @@
 	    });
 
 	    if($("#page_doesnt_exist_so_start_editing_it_now").length>0){
-	    	$("#wiki_edit_view_secondary").before('<a href="#" class="btn btn-primary addUSUTools"><i class="fa fa-rocket" style="font-size: 18px;"></i> Launch USU Tools</a>');
+	    	$("#wiki_edit_view_secondary").before('<a href="#" class="btn btn-primary addUSUTools"><i class="fa fa-rocket" style="font-size: 18px;"></i> Launch BlueLine Toolswiki</a>');
 			$(".addUSUTools").click(function (e){
 				e.preventDefault();
 				editorExistenceCheck();
@@ -346,7 +346,7 @@
 					USU Tools Overview\
 				</h3>\
 				<div>\
-					<p><small>Below you will find a collection of tools designed to assist course creation at USU.</small></p>\
+					<p><small>Below you will find a collection of tools designed to assist course creation at CU.</small></p>\
 					<p><small>These tools may be added to or changed as new needs arise.</small></p>\
 				</div>';
 			$("#custom-tools-accordion").append(addAccordionSection);

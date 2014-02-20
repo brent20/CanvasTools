@@ -22,7 +22,7 @@
 		$(".edit_link").click(function () {
 	    // Add button to trigger USU tools
 		   if(!$("#custom-tools-accordion").length>0){
-				$("#wiki_edit_view_secondary").before('<a href="#" class="btn btn-primary addUSUTools"><i class="fa fa-rocket" style="font-size: 18px;"></i> Launch USU Tools</a>');
+				$("#wiki_edit_view_secondary").before('<a href="#" class="btn btn-primary addUSUTools"><i class="fa fa-rocket" style="font-size: 18px;"></i> Launch BlueLine Tools</a>');
 				$(".addUSUTools").click(function (e){
 					e.preventDefault();
 					editorExistenceCheck();
@@ -191,8 +191,8 @@
 					}
 				// Create tabs for Canvas Tools and USU Tools
 					var tabNavigation = '<ul>\
-							<li><a href="#canvas_tools" class="custom-tool-tab">Canvas Tools</a></li>\
-							<li><a href="#usu_tools" id="toolsTrigger" class="custom-tool-tab">USU Tools</a></li>\
+							<li><a href="#canvas_tools" class="custom-tool-tab">BlueLine Tools</a></li>\
+							<li><a href="#usu_tools" id="toolsTrigger" class="custom-tool-tab">CU Tools</a></li>\
 						</ul>';
 					$("#custom-tools-wrapper").append('<div id="usu_tools" />').prepend(tabNavigation);
 					$("#usu_tools").html('<div class="btn-group-label">\
@@ -289,10 +289,10 @@
 
 		function toolsOverview(){
 			var addAccordionSection = '<h3>\
-					USU Tools Overview\
+					BlueLine Tools Overview\
 				</h3>\
 				<div>\
-					<p><small>Below you will find a collection of tools designed to assist course creation at USU.</small></p>\
+					<p><small>Below you will find a collection of tools designed to assist course creation at Creighton University.</small></p>\
 					<p><small>These tools may be added to or changed as new needs arise.</small></p>\
 				</div>';
 			$("#custom-tools-accordion").append(addAccordionSection);
@@ -308,7 +308,7 @@
 					Themes\
 					<a class="help pull-right toolsHelp" data-tooltip=\'{"tooltipClass":"popover right", "position":"right"}\'\
 					  title="<div class=\'popover-title\'>Front Page Themes</div>\
-					  <div class=\'popover-content\'><p>Select from predifined front page themes</p><p>You can also specify whether or not Canvas should look for a course level css file.</div>">\
+					  <div class=\'popover-content\'><p>Select from predifined front page themes</p><p>You can also specify whether or not BlueLine should look for a course level css file.</div>">\
 					  &nbsp;<span class="screenreader-only">information about front page themes.</span>\
 					</a>\
 				</h3>\
@@ -343,7 +343,7 @@
 					tinyMCE.get("wiki_page_body").controlManager.get(externalToolId).settings.onclick();
 				});
 			} else {
-				$(".themesContent").append('<div class="alert alert-info" style="margin-bottom: 5px;">Click the <img src="/images/downtick.png"> icon on the editor toolbar and choose "USU Template Wizard" to change the banner image.</div>');
+				$(".themesContent").append('<div class="alert alert-info" style="margin-bottom: 5px;">Click the tri-cog icon on the editor toolbar called "BlueLine Template Wizard" to change the banner image.</div>');
 			}
 			outputThemes(nogridThemeArray);
 			outputThemes(gridThemeArray);
@@ -568,7 +568,7 @@
 			'</ul>' +
 			'</div>';
 		var modulesSection = '<div id="usu-modules-grid" class="modules_grid">&nbsp;</div>';
-		var footerSection = '<div class="contact_footer usu-home-footer">First Last, Ph.D. &nbsp;| &nbsp;first.last@usu.edu&nbsp; | &nbsp;Department<br /><span class="usu-copyright">Materials in this course may be copyright protected. Please do not distribute them without permission of the copyright holder.</span></div>';
+		var footerSection = '<div class="contact_footer usu-home-footer">First Last, Ph.D. &nbsp;| &nbsp;FirstLast@creighton.edu&nbsp; | &nbsp;Department<br /><span class="usu-copyright">Materials in this course may be copyright protected. Please do not distribute them without permission of the copyright holder.</span></div>';
 		var attributionSection = '<div class="image_attribution usu-home-attrib">Image attribution here.</div>';
 		var socialMediaSection = '<div class="social_media usu-social">&nbsp;</div>';
 
@@ -633,7 +633,7 @@
 						<p>To complete <i class="fa fa-chain-broken"></i> item(s):</p>\
 						<ol>\
 							<li>Update item text</li>\
-							<li>Use Canvas Tools to add a link</li>\
+							<li>Use BlueLine Tools to add a link</li>\
 							<li>Add a Content Icon</li>\
 							<li>Click &ldquo;Update Items&rdquo;</li>\
 						</ol>\
@@ -752,7 +752,7 @@
 					<div class="moduleListOptions">\
 						<ul id="moduleList" class="unstyled sections_li"></ul>\
 					</div>\
-					<a href="#" class="btn btn-mini insertModuleList" data-tooltip="left" title="Pulls new module list from Canvas"><i class="icon-add"></i> Insert Module Details</a>\
+					<a href="#" class="btn btn-mini insertModuleList" data-tooltip="left" title="Pulls new module list from BlueLine"><i class="icon-add"></i> Insert Module Details</a>\
 					<div class="btn-group-label">\
 						<span>Link To: </span>\
 						<div class="btn-group">\
